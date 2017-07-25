@@ -327,6 +327,7 @@ Route::get('user/country', function(){
 
 // Polymorphic Relations
 
+/*
 Route::get('user/photos', function(){
 
 	$user = User::find(1);
@@ -338,6 +339,7 @@ Route::get('user/photos', function(){
 	}
 
 });
+*/
 
 /*
 Route::get('post/{id}/photos', function($id){
@@ -353,6 +355,7 @@ Route::get('post/{id}/photos', function($id){
 });
 */
 
+/*
 Route::get('photo/{id}/post', function($id){
 
 	$photo = Photo::findOrFail($id);
@@ -360,3 +363,6 @@ Route::get('photo/{id}/post', function($id){
 	return $photo->imageable;
 
 });
+*/
+
+
